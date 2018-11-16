@@ -2,6 +2,8 @@ use chrono::prelude::*;
 use model::{PackageInfo, Rotation};
 use super::Error;
 
+use ::tricktracktruck_macros::assert_that;
+
 #[test]
 #[allow(non_snake_case)]
 fn test_packageinfo_parse_AB012() {

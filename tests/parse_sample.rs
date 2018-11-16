@@ -1,8 +1,8 @@
 extern crate tricktracktruck_planning_import;
 extern crate chrono;
 
-#[macro_use(assert_that)]
 extern crate tricktracktruck_macros;
+use tricktracktruck_macros::assert_that;
 
 use tricktracktruck_planning_import::parser;
 use chrono::prelude::*;
